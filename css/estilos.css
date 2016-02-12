@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+
+      .extra
+
+      {
+
+     display: block;
+     position: fixed;
+     top:10%;
+     bottom: 10%;
+     width: 60px;
+     height: 80%;
+     background-color: rgba(20, 83, 176, 0.9);
+     z-index: 100;
+     left:-5;
+     list-style: none;
+     padding-top: 20px;
+     border-top-right-radius: 0.5em ;
+     border-bottom-right-radius: 0.5em;
+
+
+
+      }
+
+      .extra ul{
+
+      	list-style: none;
+      	display: block;
+      	padding-left: 0;
+      }
+
+      .extra ul li a{
+
+      		display:block;
+      		position: relative;
+      		width: 180px;
+      		height: 40px;
+      		margin-bottom: 30px;
+      		text-align: center; 
+      		padding-top: 7px;
+      		font-size: 1.5rem;
+      		color: transparent;
+      		border-top-right-radius: 0.5em ;
+      		border-bottom-right-radius: 0.5em;
+      		font-family: 'Julius Sans One', sans-serif;
+      		font-weight: bolder;
+
+
+
+      		
+
+      }
+      .extra ul li span{
+      	display: inline-block;
+      	position: absolute;
+      	color: white;
+      	left: 0px;
+      	height: 100%;
+      	padding-top: 11px;
+      	
+      	
+      }
+      .extra ul li a p{
+
+      	margin-left: 0px;
+      	padding-left: 60px;
+      	font-size: 1.6rem;
+      	vertical-align: center;
+
+      	
+
+      }
+
+      .extra ul li a:hover{
+
+			display: block;	
+      		background-color: rgba(20, 83, 176, 0.9);
+      		width: 200px;
+      		height: 40px;
+      		text-decoration: none;
+      		margin-bottom: 30px;
+      		color: white;
+      		font-size: 2rem;	
+      }
+
+		
+      .ico{
+		display: block;
+		position: relative;
+      	width: 60px;
+      	
+
+      }
+      .textos{
+
+      	 	color: transparent;
+      	 	z-index: 400;
+      	 	height: 40px;
+
+      }
+	    #pano{
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 400px;
+        height: 400px;
+        background-color: black;
+        z-index: 100;
+  
+      }
+
+header{
+            
+    position:relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+img{
+	display: block;
+    position:relative;
+    top:0px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.seminegro{
+	display: block;
+	position: absolute;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0,0,0,0.7);
+	z-index: 20;
+}
